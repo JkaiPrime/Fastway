@@ -1,6 +1,6 @@
 # Fastway
 
-An Application to help the user to have acess in a fast manner to the functiolalites of the plataform of Software Express
+An Application to help the user to have acess in a fast manner to the functionalites of the plataform of Software Express
 
 ## Authors
 
