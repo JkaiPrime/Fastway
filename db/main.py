@@ -43,7 +43,6 @@ class DatabaseCRUD:
             print(f"Erro ao criar tabelas: {e}")
             raise
 
-
     def insert_entry(self, table, user, password, otp):
         """Insere uma entrada na tabela especificada."""
         try:
@@ -106,6 +105,22 @@ class DatabaseCRUD:
             print(f"Erro ao ler entradas: {e}")
             return []
 
+    def get_all_credentials(self):
+        """Retorna todos os registros de user, password e otp das tabelas Elgin, Connect e Tefway."""
+        try:
+            credentials = {}
+            tables = ["Elgin", "Connect", "Tefway"]
+            for table in tables:
+                entries = self.get_entries(table)
+                credentials[table] = [
+                    {"user": e["user"], "password": e["password"], "otp": e["otp"]}
+                    for e in entries
+                ]
+            return credentials
+        except Error as e:
+            print(f"Erro ao buscar credenciais: {e}")
+            return {}
+
     def delete_entry(self, table, entry_id):
         """Exclui uma entrada pelo ID da tabela."""
         try:
@@ -146,6 +161,10 @@ if __name__ == "__main__":
     
     print("\nEntrada com ID 1 da Connect:")
     print(db.get_entries("Connect", 1))
+
+    # Obter todas as credenciais
+    print("\nCredenciais completas:")
+    print(db.get_all_credentials())
     
     # Excluir dados
     db.delete_entry("Elgin", 1)
