@@ -43,19 +43,20 @@ class DatabaseCRUD:
             print(f"Erro ao criar tabelas: {e}")
             raise
 
+# database.py
     def insert_entry(self, table, user, password, otp):
-        """Insere uma entrada na tabela especificada."""
         try:
+            print(f"Tentando inserir em {table}: {user}, {password}, {otp}")
             cursor = self.connection.cursor()
             cursor.execute(f'''
                 INSERT INTO {table} (user, password, otp)
                 VALUES (?, ?, ?)
             ''', (user, password, otp))
             self.connection.commit()
-            print(f"Entrada inserida na tabela {table}!")
+            print("Inserção bem-sucedida!")
             return True
         except Error as e:
-            print(f"Erro ao inserir entrada: {e}")
+            print(f"Erro na inserção: {str(e)}")
             return False
 
     def update_entry(self, table, entry_id, user=None, password=None, otp=None):

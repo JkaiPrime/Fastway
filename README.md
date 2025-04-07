@@ -1,43 +1,68 @@
-# Fastway
+# 🚀 FastWay - Sistema de Automação TEF  
 
-An Application to help the user to have acess in a fast manner to the functionalites of the plataform of Software Express
+**Solução integrada para gestão de transações TEF através do Sitef (Elgin/Comnect)**  
 
-## Authors
+---
 
-[@Jkai](https://github.com/JkaiPrime)
-## Features
+## ✒️ Autores  
+- **[@Jkai](https://github.com/JkaiPrime)**  
 
-- Easy acess, no need to digit the OTP
-- Simple UI/EX
-- Light aplication
+---
 
+## 🎯 Funcionalidades Principais  
+- Autenticação automática no portal Software Express  
+- Armazenamento seguro de credenciais (usuário, senha, OTP)  
+- Consulta de histórico de vendas por usuário  
+- Interface de linha de comando (CLI) intuitiva  
+- Compatibilidade com ambientes Windows  
 
+---
 
-## Documentation
+## 📚 Documentação Técnica  
+Para detalhes de implementação e manual avançado, consulte:  
+[Documentação Completa](https://linktodocumentation)  
 
-[Documentation](https://linktodocumentation)
+---
 
+## 🖥️ Exemplos de Uso  
+1. **Primeiro acesso**:  
+   - Execute o aplicativo como administrador  
+   - Selecione a opção de cadastro de credenciais  
+   - Insira os dados conforme solicitado  
 
-## Usage/Examples
- - Dowload the application
- - Run as administrator
- - chose the option that you need
+2. **Operações diárias**:  
+   - Inicie o sistema e escolha a ação desejada no menu  
+   - Para acesso rápido ao portal, selecione a opção correspondente ao servidor  
 
+---
 
-## Used By
+## 🌍 Empresas Utilizadoras  
+[![Tefway](https://tefway.com.br/)](https://tefway.com.br/)  
+*Solução implementada em rede nacional de estabelecimentos comerciais*  
 
-This project is used by the following companies:
+---
 
-- [Tefway](https://tefway.com.br/)
+## ⚙️ Arquitetura Técnica  
+Tecnologia | Função | Versão  
+-----------|--------|--------  
+Python | Lógica de negócios | 3.11+  
+SQLite | Armazenamento local | 3.39+  
+Selenium | Automação Web | 4.10+  
+PyOTP | Geração de tokens | 2.8+  
+PyInstaller | Distribuição Windows | 5.13+  
 
+---
 
-## Tech Stack
+## 📜 Licenciamento  
+Distribuído sob licença **MIT** - Consulte os termos completos em:  
+[Licença MIT](https://github.com/JkaiPrime/Fastway/blob/main/LICENSE)  
 
-- **Python**
-- **Selenium**
-- **SQLite**
+---
 
+## 📬 Contato & Suporte  
+**Equipe de Desenvolvimento**  
+✉️ suporte@tefway.com.br
 
-## License
+**Responsável Técnico**  
+👤 [@Jkai](https://github.com/JkaiPrime)  
 
-[MIT](https://choosealicense.com/licenses/mit/)
