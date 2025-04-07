@@ -37,8 +37,8 @@ Para detalhes de implementação e manual avançado, consulte:
 ---
 
 ## 🌍 Empresas Utilizadoras  
-[![Tefway](https://tefway.com.br/)](https://tefway.com.br/)  
-*Solução implementada em rede nacional de estabelecimentos comerciais*  
+[Tefway](https://tefway.com.br/)  
+*Solução implementada em rede nacional de vendas de Tef*  
 
 ---
 
