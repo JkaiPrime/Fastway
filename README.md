@@ -66,3 +66,21 @@ Distribuído sob licença **MIT** - Consulte os termos completos em:
 **Responsável Técnico**  
 👤 [@Jkai](https://github.com/JkaiPrime)  
 
+
+```
+Fastway
+├─ LICENSE
+├─ README.md
+├─ app.py
+├─ assets
+│  └─ favicon.ico
+├─ requirements.txt
+└─ src
+   ├─ Services
+   │  └─ service_db.py
+   ├─ database.py
+   └─ fiserv_and_linx
+      ├─ express.py
+      └─ relatorio_express.py
+
+```

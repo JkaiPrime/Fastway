@@ -1,7 +1,7 @@
 import sys
 import os
 import time
-import oathtool
+import oathtool #type: ignore
 import subprocess
 from datetime import datetime
 from selenium import webdriver
@@ -50,7 +50,7 @@ def efetuar_login(server: int):
     driver = webdriver.Chrome(options=chrome_options)
     
     try:
-        print(f"[{timestamp()}] Iniciando login no servidor {'Elgin' if server == 1 else 'Connect'}")
+        #print(f"[{timestamp()}] Iniciando login no servidor {'Elgin' if server == 1 else 'Connect'}")
         
         # Navegação e preenchimento do formulário
         driver.get("https://sitefexpressadm.softwareexpress.com.br/sitefwebadm/")
@@ -74,7 +74,7 @@ def efetuar_login(server: int):
         WebDriverWait(driver, 30).until(
             EC.url_to_be("https://sitefexpressadm.softwareexpress.com.br/sitefwebadm/pages/inicial.zeus")
         )
-        print(f"[{timestamp()}] Login realizado com sucesso!")
+        #print(f"[{timestamp()}] Login realizado com sucesso!")
 
     except Exception as e:
         error_msg = f"[{timestamp()}] Erro durante o login: {str(e)}"
@@ -100,7 +100,8 @@ def monitorar_janela(driver, service):
         service.close()
         send_notification("Sessão encerrada")
 
-if __name__ == "__main__":
-    server = get_server_option()
+
+
+def run(server):
     driver, service = efetuar_login(server)
     monitorar_janela(driver, service)
