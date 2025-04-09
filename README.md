@@ -20,7 +20,7 @@
 
 ## 📚 Documentação Técnica  
 Para detalhes de implementação e manual avançado, consulte:  
-[Documentação Completa](https://linktodocumentation)  
+[Documentação Completa](https://github.com/JkaiPrime/Fastway)  
 
 ---
 
@@ -52,21 +52,7 @@ PyOTP | Geração de tokens | 2.8+
 PyInstaller | Distribuição Windows | 5.13+  
 
 ---
-
-## 📜 Licenciamento  
-Distribuído sob licença **MIT** - Consulte os termos completos em:  
-[Licença MIT](https://github.com/JkaiPrime/Fastway/blob/main/LICENSE)  
-
----
-
-## 📬 Contato & Suporte  
-**Equipe de Desenvolvimento**  
-✉️ suporte@tefway.com.br
-
-**Responsável Técnico**  
-👤 [@Jkai](https://github.com/JkaiPrime)  
-
-
+Estrutura:
 ```
 Fastway
 ├─ LICENSE
@@ -84,3 +70,16 @@ Fastway
       └─ relatorio_express.py
 
 ```
+---
+## 📜 Licenciamento  
+Distribuído sob licença **MIT** - Consulte os termos completos em:  
+[Licença MIT](https://github.com/JkaiPrime/Fastway/blob/main/LICENSE)  
+
+---
+
+## 📬 Contato & Suporte  
+**Equipe de Desenvolvimento**  
+✉️ suporte@tefway.com.br
+
+**Responsável Técnico**  
+👤 [@Jkai](https://github.com/JkaiPrime)  
