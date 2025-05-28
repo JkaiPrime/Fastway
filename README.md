@@ -12,8 +12,8 @@
 ## 🎯 Funcionalidades Principais  
 - Autenticação automática no portal Software Express  
 - Armazenamento seguro de credenciais (usuário, senha, OTP)  
-- Consulta de histórico de vendas por usuário  
-- Interface de linha de comando (CLI) intuitiva  
+- Consulta de histórico de vendas por usuário (em desenvolvimento)
+- Interface UI intuitiva  
 - Compatibilidade com ambientes Windows  
 
 ---
@@ -67,7 +67,8 @@ Fastway
    ├─ database.py
    └─ fiserv_and_linx
       ├─ express.py
-      └─ relatorio_express.py
+      ├─ relatorio_express.py
+      └─ gluo.py
 
 ```
 ---
